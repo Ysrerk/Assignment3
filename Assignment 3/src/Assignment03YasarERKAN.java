@@ -17,7 +17,7 @@ public class Assignment03YasarERKAN {
 				// Roll values are creating by math.random method  and for loop.
 				//Also they are assigning to array  was named diceRolls 
 				for(int count = 0; count < 1000; count++) {
-				    roll = (int)(Math.random() * 20) + 1;
+				    roll = (int)(Math.random() * 19) + 1;
 				    diceRolls[roll] = diceRolls[roll - 1] + 1; // crashes
 				}	
 				// This for loop creating  report for all array values.
